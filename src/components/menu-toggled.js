@@ -14,7 +14,7 @@ const MenuToggled = props => {
 					<ul>
 						<Fade bottom delay={300} duration={900} spy={props.menuListAnimation}>
 							<AniLink cover to="/" duration={0.7} bg="#ff3c00"><li>Home</li></AniLink>
-							<AniLink paintDrip to="/testquiz/" duration={0.5} hex="#4b96ae"><li>Take The Test</li></AniLink>
+							<AniLink cover to="/testquiz/" duration={0.5} hex="#4b96ae"><li>Take The Test</li></AniLink>
 							<AniLink cover to="/characters/" duration={0.5} hex="#000"><li>Explore Characters</li></AniLink>
 							<AniLink cover to="/" duration={0.7} bg="#ff3c00"><li>Learn More</li></AniLink>
 						</Fade>

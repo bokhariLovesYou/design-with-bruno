@@ -60,7 +60,7 @@ const MainLayOut = props => {
 										</div>
 										<Zoom delay={500} duration={500}>
 											<div className="button-parent text-center">
-												<AniLink paintDrip to="/testquiz/" duration={0.5} hex="#4b96ae"><button className="button button-one">{props.rightColumnButtonText}</button></AniLink>
+												<AniLink cover to="/testquiz/" duration={0.5} hex="#4b96ae"><button className="button button-one">{props.rightColumnButtonText}</button></AniLink>
 											</div>
 										</Zoom>
 									</div>

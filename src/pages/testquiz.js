@@ -217,7 +217,7 @@ class TestPageTemplate extends React.Component {
 		    },
 	    ],
 	    currentQuestion: 1,
-	    redirectToChar: window.location.href.substr(window.location.href.lastIndexOf('/') + 1) + '?',
+	    redirectToChar: '?',
 	    handleReRenderOptions: false,
 	    handleReRenderOptionsTwo: false,
 	    answersArr: []
@@ -245,9 +245,9 @@ class TestPageTemplate extends React.Component {
 
 	 componentDidMount = () => {
 	    this.setState (prevState => ({
-	      	redirectToChar: this.state.redirectToChar = 'testquiz/?' + (this.state.currentQuestion + 1),
-	      	handleReRenderOptions: this.state.handleReRenderOptions = true,
-	      	handleReRenderOptionsTwo: this.state.handleReRenderOptionsTwo = true
+	      	redirectToChar: 'testquiz/?' + (this.state.currentQuestion + 1),
+	      	handleReRenderOptions: true,
+	      	handleReRenderOptionsTwo: true
 	    }));
 
 	 }
@@ -264,9 +264,9 @@ class TestPageTemplate extends React.Component {
 	 	currentQuestionValue = isNaN(currentQuestionValue) ? 0 : currentQuestionValue;
 	 	currentQuestionValue ++;
 	      this.setState (prevState => ({
-	      	currentQuestion: this.state.currentQuestion = currentQuestionValue,
-	      	handleReRenderOptions: this.state.handleReRenderOptions = false,
-	      	handleReRenderOptionsTwo: this.state.handleReRenderOptionsTwo = false
+	      	currentQuestion: currentQuestionValue,
+	      	handleReRenderOptions: false,
+	      	handleReRenderOptionsTwo: false
 	      }));
 
 
@@ -350,9 +350,11 @@ class TestPageTemplate extends React.Component {
 
 	render() {
 
-		const choices = this.state.questionObj[0].choices;
-		const myObj = 'this.state.questionObj[' + (this.state.currentQuestion - 1) + ']';
-		const myObjUse = eval(myObj);
+		// const choices = this.state.questionObj[0].choices;
+		// const myObj = 'this.state.questionObj[' + (this.state.currentQuestion - 1) + ']';
+		// const myObjUse = eval(myObj);
+
+		const myObjUse = this.state.questionObj[this.state.currentQuestion - 1];
 
  		let answersArr = [];		
 
