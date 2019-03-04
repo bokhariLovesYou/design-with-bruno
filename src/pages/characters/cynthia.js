@@ -57,7 +57,29 @@ class Cynthia extends React.Component {
 	    subTitle: 'From the story of "My Life"',
 	    charLongerDesc: 'He got successful and rich. In his home “everything seemed as though it would say: “He lived and laboured, and has attained at last the happiness possible on earth."',
 	    themeText: 'color-nineteen',
-	    themeBG: 'bg-nineteen'
+	    themeBG: 'bg-nineteen',
+	    portfolio: [
+	    	{
+	    		websiteName: 'Verge Currency',
+	    		websiteURL: 'https://vergecurrency.com/',
+	    		websiteImage: 'https://i.imgur.com/yRlylCM.jpg'
+	    	},
+	    	{
+	    		websiteName: 'Hulu',
+	    		websiteURL: 'https://www.hulu.com/welcome',
+	    		websiteImage: 'https://i.imgur.com/QIthAsZ.jpg'
+	    	},
+	    	{
+	    		websiteName: 'Underbelly',
+	    		websiteURL: 'https://underbelly.is/',
+	    		websiteImage: 'https://i.imgur.com/fpTK1IR.jpg'
+	    	},
+	    	{
+	    		websiteName: 'Design Better',
+	    		websiteURL: 'https://www.designbetter.co/',
+	    		websiteImage: 'https://i.imgur.com/5cXLVnu.png'
+	    	}	    	
+	    ]
 	  }
 
 
@@ -96,6 +118,7 @@ class Cynthia extends React.Component {
 					themeText={this.state.themeText}
 					themeBG={this.state.themeBG}
 					charLongerDesc={this.state.charLongerDesc}
+					portfolio={this.state.portfolio}
 				/>
 			</PageTransition>
 		)

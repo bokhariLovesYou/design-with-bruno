@@ -1,6 +1,6 @@
 # Design with Bruno
 
-[![CircleCI](https://circleci.com/gh/haani/gilda-suites.svg?style=svg&circle-token=1a74902b546c6e702ccb16b541c3829b9180c4f1)](https://circleci.com/gh/haani/design-with-bruno)
+[![CircleCI](https://circleci.com/gh/haani/gilda-suites.svg?style=svg&circle-token=1a74902b546c6e702ccb16b541c3829b9180c4f1)](https://circleci.com/gh/design-with-bruno)
 
 Website for Design with Bruno
 

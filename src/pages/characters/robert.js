@@ -57,7 +57,29 @@ class Robert extends React.Component {
 	    subTitle: 'From the story of "My Life"',
 	    charLongerDesc: 'He got successful and rich. In his home “everything seemed as though it would say: “He lived and laboured, and has attained at last the happiness possible on earth."',
 	    themeText: 'color-fourteen',
-	    themeBG: 'bg-fourteen'
+	    themeBG: 'bg-fourteen',
+	    portfolio: [
+	    	{
+	    		websiteName: 'Open Collective',
+	    		websiteURL: 'https://opencollective.com/',
+	    		websiteImage: 'https://i.imgur.com/QWsYQ9t.png'
+	    	},
+	    	{
+	    		websiteName: 'Invision App',
+	    		websiteURL: 'https://www.invisionapp.com/',
+	    		websiteImage: 'https://i.imgur.com/EwNm8hI.jpg'
+	    	},
+	    	{
+	    		websiteName: 'Scale',
+	    		websiteURL: 'https://scale.ai/',
+	    		websiteImage: 'https://i.imgur.com/17ranMI.png'
+	    	},
+	    	{
+	    		websiteName: 'Expo',
+	    		websiteURL: 'https://expo.io/',
+	    		websiteImage: 'https://i.imgur.com/yrcCshP.png'
+	    	}	    	
+	    ]
 	  }
 
 
@@ -96,6 +118,7 @@ class Robert extends React.Component {
 					themeText={this.state.themeText}
 					themeBG={this.state.themeBG}
 					charLongerDesc={this.state.charLongerDesc}
+					portfolio={this.state.portfolio}
 				/>
 			</PageTransition>
 		)

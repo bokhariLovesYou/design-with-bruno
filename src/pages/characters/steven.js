@@ -57,7 +57,29 @@ class Steven extends React.Component {
 	    subTitle: 'From the story of "My Life"',
 	    charLongerDesc: 'He got successful and rich. In his home “everything seemed as though it would say: “He lived and laboured, and has attained at last the happiness possible on earth."',
 	    themeText: 'color-one',
-	    themeBG: 'bg-one'
+	    themeBG: 'bg-one',
+	    portfolio: [
+	    	{
+	    		websiteName: 'Font Base',
+	    		websiteURL: 'https://fontba.se/',
+	    		websiteImage: 'https://i.imgur.com/DouJTST.png'
+	    	},
+	    	{
+	    		websiteName: 'Nteract',
+	    		websiteURL: 'https://i.imgur.com/idrcS7m.png',
+	    		websiteImage: 'https://i.imgur.com/idrcS7m.png'
+	    	},
+	    	{
+	    		websiteName: 'Underbelly',
+	    		websiteURL: 'https://underbelly.is/',
+	    		websiteImage: 'https://i.imgur.com/fpTK1IR.jpg'
+	    	},
+	    	{
+	    		websiteName: 'Design Better',
+	    		websiteURL: 'https://www.designbetter.co/',
+	    		websiteImage: 'https://i.imgur.com/5cXLVnu.png'
+	    	}	    	
+	    ]
 	  }
 
 
@@ -96,6 +118,7 @@ class Steven extends React.Component {
 					themeText={this.state.themeText}
 					themeBG={this.state.themeBG}
 					charLongerDesc={this.state.charLongerDesc}
+					portfolio={this.state.portfolio}
 				/>
 			</PageTransition>
 		)

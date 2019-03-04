@@ -20,7 +20,7 @@ import Character12 from "../images/character-13.svg"
 const CharacterIndividualComp = props => {
 			return (
 					
-					<div className={"col-md-6 col-lg-7 home-box-left char-box-left " + props.backgroundClass}>
+					<div className={"col-md-6 col-lg-7 home-box-left no-min-height char-box-left " + props.backgroundClass}>
 						<div className="home-box-left-content generic-col pt-0 pb-0">
 							<div className="img--container text-center">
 								<Fade bottom distance='2rem' duration={600}>

@@ -924,6 +924,11 @@ p.char-longer-desc {
 	margin-bottom: 3.7rem;
 }
 
+.no-min-height {
+	min-height: auto;
+	padding-bottom: 4.23rem;
+}
+
 @media (min-width: 786px) {
 
 	.indiv-img {
@@ -955,4 +960,77 @@ p.char-longer-desc {
 	    max-width: 50%;
 	}
 
+}
+
+.page-ss {
+	max-width: 250px;
+	margin: 2rem 0;
+	box-shadow: 0 0 27px 10px rgba(214, 231, 233, 0.52);
+	height: 150px;
+	border: 1px solid #eee;
+	border-radius: 10px;
+	object-fit: cover;
+	transition: 0.2s ease;
+}
+
+.horizontal-scroll {
+  position: relative;
+  display: flex; /* [1] */
+  flex-wrap: nowrap; /* [1] */
+  overflow-x: auto; /* [1] */
+  -webkit-overflow-scrolling: touch; /* [4] */
+  -ms-overflow-style: -ms-autohiding-scrollbar; /* [5] */ 
+}
+
+.horizontal--scroller--parent {
+	position: relative;
+}
+
+.before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 5rem;
+	height: 100%;
+    background-image: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(95%, #fff), to(#fff));
+    background-image: -webkit-linear-gradient(right, transparent 0%, #fff 95%, #fff 100%);
+    background-image: linear-gradient(to left, transparent 0%, #fff 95%, #fff 100%);
+    z-index: 1;
+}
+
+.after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 5rem;
+	height: 100%;
+    background-image: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(95%, #fff), to(#fff));
+    background-image: -webkit-linear-gradient(right, transparent 0%, #fff 95%, #fff 100%);
+    background-image: linear-gradient(to right, transparent 0%, #fff 95%, #fff 100%);
+    z-index: 1;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  display: none; 
+}
+
+.horizontal-scroll .child {
+	flex: 0 0 auto;
+	margin: 0 2rem;
+}
+
+.one-rem {
+	font-size: 1rem;
+}
+
+.page-ss:hover {
+	transition: 0.2s ease;
+	transform: translateY(-5px);
+	box-shadow: 0 10px 27px 10px rgba(214, 231, 233, 0.52);
+}
+
+@media (min-width: 992px) {
+		.page-ss {
+		max-width: 300px;
+	}
 }

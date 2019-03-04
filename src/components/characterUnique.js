@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import ChoiceComponent from "../components/choiceComponent"
+import Portfolio from "../components/portfolio"
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import AniLink from "gatsby-plugin-transition-link/AniLink";
@@ -33,6 +33,23 @@ const CharacterUnique = props => {
 												<Fade bottom delay={700} duration={400} distance="1rem" force={true}>
 													<p class="small home-fourth-text pt-3 pb-3 char-longer-desc">{props.charLongerDesc}</p>
 												</Fade>
+												<div className="horizontal--scroller--parent mt-3 mb-3">
+													<div className="before"></div>
+													<div className="after"></div>
+													<div className="horizontal-scroll">
+													<Fade bottom delay={300} duration={500}>
+														{props.portfolio.map( (elem, index) => 
+															<Portfolio 
+																key={index}
+																websiteName={elem.websiteName}
+																websiteURL={elem.websiteURL}
+																websiteImage={elem.websiteImage}
+																themeText={props.themeText}
+															/>
+														)}
+													</Fade>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>

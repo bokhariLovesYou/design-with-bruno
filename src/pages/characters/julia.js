@@ -57,7 +57,29 @@ class Julia extends React.Component {
 	    subTitle: 'From the story of "My Life"',
 	    charLongerDesc: 'He got successful and rich. In his home “everything seemed as though it would say: “He lived and laboured, and has attained at last the happiness possible on earth."',
 	    themeText: 'color-two',
-	    themeBG: 'bg-two'
+	    themeBG: 'bg-two',
+	    portfolio: [
+	    	{
+	    		websiteName: 'Avocode',
+	    		websiteURL: 'https://avocode.com/',
+	    		websiteImage: 'https://i.imgur.com/c3HDssR.png'
+	    	},
+	    	{
+	    		websiteName: 'Idean',
+	    		websiteURL: 'https://www.idean.com/',
+	    		websiteImage: 'https://i.imgur.com/78y8Nce.jpg'
+	    	},
+	    	{
+	    		websiteName: 'Scale',
+	    		websiteURL: 'https://scale.ai/',
+	    		websiteImage: 'https://i.imgur.com/17ranMI.png'
+	    	},
+	    	{
+	    		websiteName: 'Expo',
+	    		websiteURL: 'https://expo.io/',
+	    		websiteImage: 'https://i.imgur.com/yrcCshP.png'
+	    	}	    	
+	    ]
 	  }
 
 
@@ -96,6 +118,7 @@ class Julia extends React.Component {
 					themeText={this.state.themeText}
 					themeBG={this.state.themeBG}
 					charLongerDesc={this.state.charLongerDesc}
+					portfolio={this.state.portfolio}
 				/>
 			</PageTransition>
 		)
