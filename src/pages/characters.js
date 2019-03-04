@@ -54,73 +54,85 @@ class CharactersTemplate extends React.Component {
 	    		name: 'Robert',
 	    		url: '/characters/robert',
 	    		image: Character1,
-	    		backgroundClass: 'bg-fourteen'
+	    		backgroundClass: 'bg-fourteen',
+	    		color: '#C5C6B6'
 	    	},
 	    	{
 	    		name: 'Julia',
 	    		url: '/characters/julia',
 	    		image: Character2,
-	    		backgroundClass: 'bg-two'
+	    		backgroundClass: 'bg-two col-lg-5',
+	    		color: '#f8246c'
 	    	},
 	    	{
 	    		name: 'Steven',
 	    		url: '/characters/steven',
 	    		image: Character3,
-	    		backgroundClass: 'bg-one'
+	    		backgroundClass: 'bg-one col-lg-5',
+	    		color: '#ff5252'
 	    	},	
 	    	{
 	    		name: 'Morris',
 	    		url: '/characters/morris',
 	    		image: Character5,
-	    		backgroundClass: 'bg-five'
+	    		backgroundClass: 'bg-five',
+	    		color: '#ea6c94'
 	    	},	
 	    	{
 	    		name: 'Andy',
 	    		url: '/characters/andy',
 	    		image: Character6,
-	    		backgroundClass: 'bg-four'
+	    		backgroundClass: 'bg-four col-lg-12',
+	    		color: '#81c683'
 	    	},
 	    	{
 	    		name: 'Phillip',
 	    		url: '/characters/phillip',
 	    		image: Character7,
-	    		backgroundClass: 'bg-six'
+	    		backgroundClass: 'bg-six col-lg-4',
+	    		color: '#ff4081'
 	    	},	
 	    	{
 	    		name: 'Tuesday',
 	    		url: '/characters/tuesday',
 	    		image: Character8,
-	    		backgroundClass: 'bg-eight'
+	    		backgroundClass: 'bg-eight col-lg-4',
+	    		color: '#63b5f6'
 	    	},
 	    	{
 	    		name: 'Cynthia',
 	    		url: '/characters/cynthia',
 	    		image: Character9,
-	    		backgroundClass: 'bg-nineteen'
+	    		backgroundClass: 'bg-nineteen col-lg-4',
+	    		color: '#f9c00c'
 	    	},	
 	    	{
 	    		name: 'Chloe',
 	    		url: '/characters/chloe',
 	    		image: Character10,
-	    		backgroundClass: 'bg-seventeen'
+	    		backgroundClass: 'bg-seventeen col-lg-6',
+	    		color: '#353866'
 	    	},
 	    	{
 	    		name: 'Symphonie',
 	    		url: '/characters/symphonie',
 	    		image: Character11,
-	    		backgroundClass: 'bg-fifteen'
+	    		backgroundClass: 'bg-fifteen col-lg-6',
+	    		color: '#AACD6E'
 	    	},
 	    	{
 	    		name: 'Mallorie',
 	    		url: '/characters/mallorie',
 	    		image: Character12,
-	    		backgroundClass: 'bg-twelve'
+	    		backgroundClass: 'bg-twelve col-lg-6',
+	    		color: '#56445D'
 	    	},
 	    	{
 	    		name: 'shekhloöv',
 	    		url: '/characters/shekhloov',
 	    		image: Character3,
-	    		backgroundClass: 'bg-purple'
+	    		backgroundClass: 'bg-purple col-lg-6',
+	    		color: 'purple'
 	    	},	    			    	
 	    ]
 	  }

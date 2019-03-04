@@ -12,6 +12,7 @@ module.exports = {
     },
     `gatsby-transformer-remark`,
     `gatsby-plugin-page-transitions`,
-    `gatsby-plugin-transition-link`
+    `gatsby-plugin-transition-link`,
+    `gatsby-plugin-react-helmet`
   ],
 }

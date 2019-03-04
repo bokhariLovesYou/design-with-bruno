@@ -31,6 +31,7 @@ const CharacterComp = props => {
 									url={elem.url}
 									image={elem.image}
 									backgroundClass={elem.backgroundClass}
+									color={elem.color}
 								/>
 							)}
 

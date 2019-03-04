@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Header from "../components/header"
@@ -183,6 +184,11 @@ class HomePageTemplate extends React.Component {
 
 		return (
 			<PageTransition>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Design with Brunö - Take the Quiz</title>
+          <link rel="canonical" href="" />
+        </Helmet>
 				<div className="body">
 					<Header toggleDrawer={this.togglerDrawer} menuToggledClasses={this.state.header[0].menuToggledClasses} menuListAnimation={this.menuListAnimation} menuChildClasses={this.state.header[0].menuChildClasses} customClass={this.state.header[0].class}/>
 					<MainLayOut 

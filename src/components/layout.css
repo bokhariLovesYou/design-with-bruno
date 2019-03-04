@@ -778,6 +778,7 @@ button.button.button-one:hover {
 	background-color: #C5C6B6;
 }
 
+
 .color-fourteen {
 	color: #C5C6B6;
 	transition: 0.2s ease;
@@ -826,6 +827,10 @@ button.button.button-one:hover {
 
 .bg-nineteen {
 	background-color: #f9c00c;
+}
+
+.color-nineteen {
+	color: #f9c00c;;
 }
 
 .color-twenty {
@@ -894,4 +899,60 @@ button.button.button-one:hover {
 
 .char-img {
 	max-width: 400px;
+}
+
+
+.title-char-page {
+	margin-top: 3.5rem;
+}
+
+.charTitle {
+	font-size: 3rem;
+	overflow-wrap: break-word;
+}
+
+.char-sub-title {
+	font-size: 1.3rem;
+	margin-bottom: 1rem;
+}
+
+p.char-longer-desc {
+	font-size: 0.8rem;
+}
+
+.indiv-img {
+	margin-bottom: 3.7rem;
+}
+
+@media (min-width: 786px) {
+
+	.indiv-img {
+		max-width: 350px;
+	}
+
+	.charTitle {
+		font-size: 6rem;
+	}
+
+}
+
+@media (min-width: 992px) {
+	.col-lg-4 {
+	    -webkit-flex: 0 0 33.333333%;
+	    flex: 0 0 33.333333%;
+	    max-width: 33.333333%;
+	}
+
+	.col-lg-5 {
+	    -webkit-flex: 0 0 41.666667%;
+	    flex: 0 0 41.666667%;
+	    max-width: 41.666667%;
+	}
+
+	.col-lg-6 {
+	    -webkit-flex: 0 0 50%;
+	    flex: 0 0 50%;
+	    max-width: 50%;
+	}
+
 }
