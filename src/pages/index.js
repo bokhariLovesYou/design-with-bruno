@@ -10,6 +10,7 @@ import { TransitionPortal } from "gatsby-plugin-transition-link"
 import Zoom from 'react-reveal/Zoom';
 // importing images
 import Bruno from "../images/character-1.svg"
+import BrunoFavicon from "../images/bruno-favicon.png"
 import Character1 from "../images/character-2.svg"
 import Character2 from "../images/character-3.svg"
 import Character3 from "../images/character-4.svg"
@@ -187,7 +188,7 @@ class HomePageTemplate extends React.Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Design with Brunö - Take the Quiz</title>
-          <link rel="canonical" href="" />
+          <link rel=" shortcut icon" href={BrunoFavicon} />
         </Helmet>
 				<div className="body">
 					<Header toggleDrawer={this.togglerDrawer} menuToggledClasses={this.state.header[0].menuToggledClasses} menuListAnimation={this.menuListAnimation} menuChildClasses={this.state.header[0].menuChildClasses} customClass={this.state.header[0].class}/>
