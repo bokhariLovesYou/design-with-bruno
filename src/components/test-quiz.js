@@ -6,7 +6,7 @@ import Zoom from 'react-reveal/Zoom';
 
 const TestQuizLayout = props => {
 			return (
-				<div className="home template">
+				<div className="home quiz template">
 					<section className="global-section">
 						<div className="container-fluid pl-md-0 pr-md-0">
 							<div className="row">

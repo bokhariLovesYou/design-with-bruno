@@ -31,7 +31,7 @@ const CharacterUnique = props => {
 													<h4 className="question-title all-upper-case bolder-text black-text pt-2 char-sub-title">{props.subTitle}</h4>
 												</Fade>
 												<Fade bottom delay={700} duration={400} distance="1rem" force={true}>
-													<p class="small home-fourth-text pt-3 pb-3 char-longer-desc">{props.charLongerDesc}</p>
+													<p className="small home-fourth-text pt-3 pb-3 char-longer-desc">{props.charLongerDesc}</p>
 												</Fade>
 												<div className="horizontal--scroller--parent mt-3 mb-3">
 													<div className="before"></div>

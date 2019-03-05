@@ -58,7 +58,9 @@ class HomePageTemplate extends React.Component {
 	    mainTitleColor: 'red',
 	    randomNum: 0,
 	    subTitleClasses: 'orange',
-	    menuListAnimation: false
+	    menuListAnimation: false,
+	    transitionSpeed: 0.5,
+	    buttonDelay: 500
 	  }
 
 
@@ -89,8 +91,22 @@ class HomePageTemplate extends React.Component {
 	  		createLoop: prevState.createLoop = true,
 	  		delay: prevState.delay = 300,
 	  		bg: prevState.bg = true,
-	  		randomNum: prevState.randomNum = Math.floor(Math.random() * 1500) + 1
+	  		randomNum: prevState.randomNum = Math.floor(Math.random() * 1500) + 1,
+	  		transitionSpeed: 0.5,
+	  		buttonDelay: 500
 		})) 
+
+
+	if (typeof window !== 'undefined') {
+
+		if (window.innerWidth < 500) {
+			this.setState(prevState => ({
+				transitionSpeed: 0.4,
+				buttonDelay: 10
+			}))
+		}
+
+	}
 
 
 	  	// Setting low delay time for the animation to kick in when image source changes
@@ -191,7 +207,11 @@ class HomePageTemplate extends React.Component {
           <link rel=" shortcut icon" href={BrunoFavicon} />
         </Helmet>
 				<div className="body">
-					<Header toggleDrawer={this.togglerDrawer} menuToggledClasses={this.state.header[0].menuToggledClasses} menuListAnimation={this.menuListAnimation} menuChildClasses={this.state.header[0].menuChildClasses} customClass={this.state.header[0].class}/>
+					<Header 
+					toggleDrawer={this.togglerDrawer} 
+					menuToggledClasses={this.state.header[0].menuToggledClasses} 
+					menuListAnimation={this.menuListAnimation} menuChildClasses={this.state.header[0].menuChildClasses} 
+					customClass={this.state.header[0].class} />
 					<MainLayOut 
 						mainHeading="Brunö"
 						subHeading="We expected you"
@@ -208,9 +228,11 @@ class HomePageTemplate extends React.Component {
 						bg={this.state.bg}
 						rightBgClass={'col-md-6 home-box-right ' + this.state.rightBgClass}
 						dropClasses={'drop ' + this.state.dropClasses}
-						mainTitleClasses={'main-heading all-upper-case bolder-text home-first-text text-duration ' + this.state.mainTitleColor}
+						mainTitleClasses={'main-heading all-upper-case bolder-text home-first-text fix-sm-text text-duration ' + this.state.mainTitleColor}
 						randomNum={imageStyle}
 						subTitleClasses={'small-text all-upper-case bolder-text purple home-second-text text-duration ' + this.state.subTitleClasses }
+						transitionSpeed={this.state.transitionSpeed}
+						buttonDelay={this.state.buttonDelay}
 					/>
 				</div>
 			</PageTransition>

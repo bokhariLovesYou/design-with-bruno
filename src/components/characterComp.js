@@ -32,6 +32,7 @@ const CharacterComp = props => {
 									image={elem.image}
 									backgroundClass={elem.backgroundClass}
 									color={elem.color}
+									transitionDuration={props.transitionDuration}
 								/>
 							)}
 

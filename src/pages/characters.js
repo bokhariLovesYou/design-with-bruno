@@ -134,7 +134,8 @@ class CharactersTemplate extends React.Component {
 	    		backgroundClass: 'bg-purple col-lg-6',
 	    		color: 'purple'
 	    	},	    			    	
-	    ]
+	    ],
+	    transitionDuration: 0.5
 	  }
 
 
@@ -156,6 +157,18 @@ class CharactersTemplate extends React.Component {
 	    }
 	 }
 
+	 componentDidMount() { 
+	 	this.setState(prevState => ({ 
+	 		transitionDuration: 0.5
+	 	}))
+
+		if (window.innerWidth < 500) {
+			this.setState(prevState => ({
+				transitionDuration: 0.4
+			}))
+		}
+	 }
+
 
 	render() {
 
@@ -163,7 +176,7 @@ class CharactersTemplate extends React.Component {
 			<PageTransition>
 				<div className="body">
 					<Header toggleDrawer={this.togglerDrawer} menuToggledClasses={this.state.header[0].menuToggledClasses} menuListAnimation={this.menuListAnimation} menuChildClasses={this.state.header[0].menuChildClasses} customClass={this.state.header[0].class}/>
-					<CharacterComp allCharacters={this.state.characters} />
+					<CharacterComp allCharacters={this.state.characters} transitionDuration={this.state.transitionDuration} />
 				</div>
 			</PageTransition>
 		)
