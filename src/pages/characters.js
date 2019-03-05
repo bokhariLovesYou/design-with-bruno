@@ -164,7 +164,7 @@ class CharactersTemplate extends React.Component {
 
 		if (window.innerWidth < 500) {
 			this.setState(prevState => ({
-				transitionDuration: 0.4
+				transitionDuration: 0.5
 			}))
 		}
 	 }

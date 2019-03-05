@@ -101,7 +101,7 @@ class HomePageTemplate extends React.Component {
 
 		if (window.innerWidth < 500) {
 			this.setState(prevState => ({
-				transitionSpeed: 0.4,
+				transitionSpeed: 0.5,
 				buttonDelay: 10
 			}))
 		}

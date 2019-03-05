@@ -12,8 +12,8 @@ class MenuToggled extends Component {
 	let durationTwo = 0.5;
 	if (typeof window !== 'undefined') {
 		if (window.innerWidth < 500) {
-			durationOne = 0.4;
-			durationTwo = 0.4;
+			durationOne = 0.5;
+			durationTwo = 0.5;
 		}
 	}
 

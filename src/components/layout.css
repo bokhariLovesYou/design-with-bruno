@@ -995,9 +995,9 @@ p.char-longer-desc {
 	left: 0;
 	width: 5rem;
 	height: 100%;
-    background-image: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(95%, #fff), to(#fff));
-    background-image: -webkit-linear-gradient(right, transparent 0%, #fff 95%, #fff 100%);
-    background-image: linear-gradient(to left, transparent 0%, #fff 95%, #fff 100%);
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(255,255,255,0.001)), color-stop(95%, #fff), to(#fff));
+    background-image: -webkit-linear-gradient(right, rgba(255,255,255,0.001) 0%, #fff 95%, #fff 100%);
+    background-image: linear-gradient(to left, rgba(255,255,255,0.001) 0%, #fff 95%, #fff 100%);
     z-index: 1;
 }
 
@@ -1007,9 +1007,9 @@ p.char-longer-desc {
 	right: 0;
 	width: 5rem;
 	height: 100%;
-    background-image: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(95%, #fff), to(#fff));
-    background-image: -webkit-linear-gradient(right, transparent 0%, #fff 95%, #fff 100%);
-    background-image: linear-gradient(to right, transparent 0%, #fff 95%, #fff 100%);
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(255,255,255,0.001)), color-stop(95%, #fff), to(#fff));
+    background-image: -webkit-linear-gradient(right, rgba(255,255,255,0.001) 0%, #fff 95%, #fff 100%);
+    background-image: linear-gradient(to right, rgba(255,255,255,0.001) 0%, #fff 95%, #fff 100%);
     z-index: 1;
 }
 
@@ -1055,10 +1055,10 @@ p.char-longer-desc {
 		font-size: 3.8rem;
 	}
 
-	.generic-col {
+	/*.generic-col {
 		padding: 2rem 1rem;
 	}
-
+*/
 	.question-title {
 		font-size: 1.3rem;
 	}
@@ -1072,7 +1072,7 @@ p.char-longer-desc {
 		height: 35px;
 	}
 
-	.quiz .home-box-left {
+/*	.quiz .home-box-left {
 		padding-bottom: 1rem;
 	}
 
@@ -1082,7 +1082,7 @@ p.char-longer-desc {
 
 	.quiz .choices-parent {
 		margin-top: 1rem;
-	}
+	}*/
 }
 
 
