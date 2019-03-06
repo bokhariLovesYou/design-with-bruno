@@ -1,8 +1,10 @@
 import React, {Component} from "react"
+import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 import MenuToggled from "./menu-toggled"
 import TransitionLink from 'gatsby-plugin-transition-link'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
+import BrunoFavicon from "../images/bruno-favicon.png"
 
 
 class Header extends Component {
@@ -18,6 +20,11 @@ class Header extends Component {
 
 		return (
 			<div className="header-parent">
+	        <Helmet>
+	          <meta charSet="utf-8" />
+	          <title>Design with Brunö - Take the Quiz</title>
+	          <link rel=" shortcut icon" href={BrunoFavicon} />
+	        </Helmet>
 			  <header className={this.props.customClass}>
 			  <div className="left-logo abs-pos">
 			  		<AniLink cover to="/" duration={duration} bg="#ff3c00"><h5>Design with BrunÖ</h5></AniLink>

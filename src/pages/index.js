@@ -201,11 +201,6 @@ class HomePageTemplate extends React.Component {
 
 		return (
 			<PageTransition>
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>Design with Brunö - Take the Quiz</title>
-          <link rel=" shortcut icon" href={BrunoFavicon} />
-        </Helmet>
 				<div className="body">
 					<Header 
 					toggleDrawer={this.togglerDrawer} 

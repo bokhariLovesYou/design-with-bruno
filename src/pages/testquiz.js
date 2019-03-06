@@ -6,6 +6,7 @@ import Header from "../components/header"
 import MainLayOut from "../components/main-layout"
 import TestQuizLayout from "../components/test-quiz"
 import * as Scroll from 'react-scroll';
+import BrunoFavicon from "../images/bruno-favicon.png"
 import { Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 class TestPageTemplate extends React.Component {

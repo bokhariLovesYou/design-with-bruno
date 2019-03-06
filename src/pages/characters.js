@@ -11,6 +11,7 @@ import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
 // importing images
 import Bruno from "../images/character-1.svg"
+import BrunoFavicon from "../images/bruno-favicon.png"
 import Character1 from "../images/character-2.svg"
 import Character2 from "../images/character-3.svg"
 import Character3 from "../images/character-4.svg"
