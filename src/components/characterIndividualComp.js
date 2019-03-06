@@ -29,7 +29,7 @@ const CharacterIndividualComp = props => {
 							</div>
 							<div className="content-area text-content-main text-center">
 								<div className="heading-box pt-4">
-									<Fade bottom delay={300} duration={500}>
+									<Fade bottom distance='1rem' delay={300} duration={500}>
 										<AniLink cover to={props.url} duration={props.transitionDuration} bg={props.color}><button className="button button-one"><h3 className="char-heading all-upper-case bolder-text home-first-text text-duration">{props.name}</h3></button></AniLink>
 									</Fade>
 								</div>

@@ -14,23 +14,23 @@ const MainLayOut = props => {
 								<div className="col-md-6 home-box-left">
 									<div className="home-box-left-content generic-col">
 										<div className="img--container text-center">
-											<Fade bottom distance='2rem' duration={600}>
+											<Fade bottom force={true} distance='2rem' duration={600}>
 												<img style={props.randomNum} alt="OneIMS Design Man" className="main-design-man" src={props.leftColumnImageSource} />
 											</Fade>
 										</div>
 										<div className="content-area text-content-main text-center">
 											<div className="heading-box pt-4">
-												<Fade bottom delay={300} duration={500}>
+												<Fade bottom force={true} delay={300} duration={500}>
 													<h1 style={props.randomNum} className={props.mainTitleClasses}>{props.mainHeading}</h1>
 												</Fade>
-												<Fade bottom delay={500} duration={500}>
+												<Fade bottom force={true} delay={500} duration={500}>
 													<h2 className={props.subTitleClasses}>{props.subHeading}</h2>
 												</Fade>	
-												<Fade bottom delay={500} duration={500}>
+												<Fade bottom force={true} delay={500} duration={500}>
 													<p className="sub-title home-third-text text-duration">{props.subTitle}<strong>{props.subTitleBoldText}</strong></p>
 												</Fade>
 											</div>
-											<Fade bottom distance='0.5rem' delay={700} duration={500}>
+											<Fade bottom force={true} distance='0.5rem' delay={700} duration={500}>
 												<div className="content">
 													<p className="small home-fourth-text">{props.paragraph}</p>
 													<p></p>
@@ -58,7 +58,7 @@ const MainLayOut = props => {
 											<img alt="OneIMS Character Lady" className="character-holder" src={props.rightColumnImageSource} />
 										</Zoom>
 										</div>
-										<Zoom delay={props.buttonDelay} duration={500} fraction={0}>
+										<Zoom force={true} delay={props.buttonDelay} duration={500} fraction={0}>
 											<div className="button-parent text-center">
 												<AniLink cover to="/testquiz/" duration={props.transitionSpeed} hex="#4b96ae"><button className="button button-one">{props.rightColumnButtonText}</button></AniLink>
 											</div>

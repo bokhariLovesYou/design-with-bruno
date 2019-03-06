@@ -66,7 +66,7 @@ const CharacterUnique = props => {
 												<Zoom delay={300} duration={600} force={true} fraction={0}>
 													<img alt="OneIMS Design Man" className="main-design-man img-test-page indiv-img" src={props.image} />
 												</Zoom>
-												<Zoom delay={500} duration={500}>
+												<Zoom delay={0} duration={500} fraction={0} force={true}>
 													<div className="button-parent text-center">
 														<AniLink cover to="/testquiz/" duration={0.5} hex="#4b96ae"><button className="button button-one">{props.rightColumnButtonText}</button></AniLink>
 													</div>
