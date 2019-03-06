@@ -18,7 +18,7 @@ class MenuToggled extends Component {
 	}
 
 	return (
-		
+		 
 			<div className="toggled-menu--parent">
 				<div className={'menu-toggled ' + this.props.menuToggledClasses}></div>
 				<div className={'menu-toggled-parent ' + this.props.menuChildClasses}>
@@ -31,6 +31,13 @@ class MenuToggled extends Component {
 								<AniLink cover to="/" duration={durationOne} bg="#ff3c00"><li>Learn More</li></AniLink>
 							</Fade>
 						</ul>
+						<hr className="toggled-hr" />
+						<div className="social">
+							<i className="fab fa-google-plus-g"></i>
+							<i className="fab fa-twitter"></i>
+							<i className="fab fa-facebook-f"></i>
+							<i className="fab fa-instagram"></i>
+						</div>
 					</div>
 				</div>
 			</div>
