@@ -48,6 +48,7 @@ const TestQuizLayout = props => {
 													choiceText={elem.choiceOption}
 													handleQuestionChange={props.handleQuestionChange}
 													redirect={props.redirect}
+													charColor={props.charColor}
 													classes={'choice-box row align-items-center ' + elem.selected}
 												/>
 											</Fade>

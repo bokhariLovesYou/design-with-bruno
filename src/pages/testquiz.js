@@ -219,6 +219,7 @@ class TestPageTemplate extends React.Component {
 	    ],
 	    currentQuestion: 1,
 	    redirectToChar: '?',
+	    colorChar: '#000',
 	    handleReRenderOptions: false,
 	    handleReRenderOptionsTwo: false,
 	    answersArr: []
@@ -248,7 +249,8 @@ class TestPageTemplate extends React.Component {
 	    this.setState (prevState => ({
 	      	redirectToChar: 'testquiz/?' + (this.state.currentQuestion + 1),
 	      	handleReRenderOptions: true,
-	      	handleReRenderOptionsTwo: true
+	      	handleReRenderOptionsTwo: true,
+	      	colorChar: '#000'
 	    }));
 
 	 }
@@ -297,13 +299,108 @@ class TestPageTemplate extends React.Component {
 
 	    // Checking to see if questions has reached last
 
+	    // let testCharArr = [
+	    // 'characters/andy',
+	    // 'characters/chloe',
+	    // 'characters/cynthia',
+	    // 'characters/julia',
+	    // 'characters/mallorie',
+	    // 'characters/morris',
+	    // 'characters/phillip',
+	    // 'characters/robert',
+	    // 'characters/shekhloov',
+	    // 'characters/steven',
+	    // 'characters/symphonie',
+	    // 'characters/tuesday'
+	    // ]
+
+
+		let characters = [
+			    	{
+			    		name: 'Robert',
+			    		url: '/characters/robert',
+			    		backgroundClass: 'bg-fourteen',
+			    		color: '#C5C6B6'
+			    	},
+			    	{
+			    		name: 'Julia',
+			    		url: '/characters/julia',
+			    		backgroundClass: 'bg-two col-lg-5',
+			    		color: '#f8246c'
+			    	},
+			    	{
+			    		name: 'Steven',
+			    		url: '/characters/steven',
+			    		backgroundClass: 'bg-one col-lg-5',
+			    		color: '#ff5252'
+			    	},	
+			    	{
+			    		name: 'Morris',
+			    		url: '/characters/morris',
+			    		backgroundClass: 'bg-five',
+			    		color: '#ea6c94'
+			    	},	
+			    	{
+			    		name: 'Andy',
+			    		url: '/characters/andy',
+			    		backgroundClass: 'bg-four col-lg-12',
+			    		color: '#81c683'
+			    	},
+			    	{
+			    		name: 'Phillip',
+			    		url: '/characters/phillip',
+			    		backgroundClass: 'bg-six col-lg-4',
+			    		color: '#ff4081'
+			    	},	
+			    	{
+			    		name: 'Tuesday',
+			    		url: '/characters/tuesday',
+			    		backgroundClass: 'bg-eight col-lg-4',
+			    		color: '#63b5f6'
+			    	},
+			    	{
+			    		name: 'Cynthia',
+			    		url: '/characters/cynthia',
+			    		backgroundClass: 'bg-nineteen col-lg-4',
+			    		color: '#f9c00c'
+			    	},	
+			    	{
+			    		name: 'Chloe',
+			    		url: '/characters/chloe',
+			    		backgroundClass: 'bg-seventeen col-lg-6',
+			    		color: '#353866'
+			    	},
+			    	{
+			    		name: 'Symphonie',
+			    		url: '/characters/symphonie',
+			    		backgroundClass: 'bg-fifteen col-lg-6',
+			    		color: '#AACD6E'
+			    	},
+			    	{
+			    		name: 'Mallorie',
+			    		url: '/characters/mallorie',
+			    		backgroundClass: 'bg-twelve col-lg-6',
+			    		color: '#56445D'
+			    	},
+			    	{
+			    		name: 'shekhloöv',
+			    		url: '/characters/shekhloov',
+			    		backgroundClass: 'bg-purple col-lg-6',
+			    		color: 'purple'
+			    	},	    			    	
+			    ]
+
+
+
 	 	if (this.state.currentQuestion < (this.state.questionObj.length - 1)) {
 		    this.setState (prevState => ({
 		      	redirectToChar: this.state.redirectToChar = 'testquiz/?' + (this.state.currentQuestion + 1) 
 		    }));
 	      } else {
+	      	let testCharItem = characters[Math.floor(Math.random()*characters.length)];
 		    this.setState (prevState => ({
-		      	redirectToChar: this.state.redirectToChar = 'charactar',
+		      	colorChar: this.state.redirectToChar = testCharItem['color'],
+		      	redirectToChar: this.state.redirectToChar = testCharItem['url'],
 		      	currentQuestion: this.state.currentQuestion = this.state.questionObj.length
 		    }));
 	      }
@@ -379,6 +476,7 @@ class TestPageTemplate extends React.Component {
 						choiceItems={myObjUse.choices}
 						handleQuestionChange={this.handleQuestionChange}
 						redirect={this.state.redirectToChar}
+						charColor={this.state.colorChar}
 						addDelay={addDelay}
 						handleReRenderOptions={this.state.handleReRenderOptions}
 						handleReRenderOptionsTwo={this.state.handleReRenderOptionsTwo}

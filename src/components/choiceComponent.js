@@ -1,5 +1,7 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
+import TransitionLink from 'gatsby-plugin-transition-link'
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
   class ChoiceComponent extends Component {
 
@@ -9,7 +11,7 @@ import { Link } from "gatsby"
 
     return (
 
-		<Link to={this.props.redirect}><div onClick={() => this.props.handleQuestionChange(index)} className={this.props.classes}>
+		<AniLink cover to={this.props.redirect} duration={0.4} bg={this.props.charColor}><div onClick={() => this.props.handleQuestionChange(index)} className={this.props.classes}>
 			<div className="col-2 pr-0">
 				<div className="alphabet">
 					<h4 className="alphabet-text">{this.props.alphabet}</h4>
@@ -20,7 +22,7 @@ import { Link } from "gatsby"
 					<h4 className="answer-text white-text">{this.props.choiceText}</h4>
 				</div>
 			</div>
-		</div></Link>
+		</div></AniLink>
 
 		);
 	}
