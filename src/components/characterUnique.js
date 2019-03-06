@@ -68,7 +68,7 @@ const CharacterUnique = props => {
 												</Zoom>
 												<Zoom delay={0} duration={500} fraction={0} force={true}>
 													<div className="button-parent text-center">
-														<AniLink cover to="/testquiz/" duration={0.5} hex="#4b96ae"><button className="button button-one">{props.rightColumnButtonText}</button></AniLink>
+														<AniLink cover to="/testquiz/" duration={0.5} bg="#4b96ae"><button className="button button-one">{props.quizTaken ? 'Take the test again' : props.rightColumnButtonText}</button></AniLink>
 													</div>
 												</Zoom>
 											</div>

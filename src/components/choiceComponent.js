@@ -11,7 +11,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink";
 
     return (
 
-		<AniLink cover to={this.props.redirect} duration={0.4} bg={this.props.charColor}><div onClick={() => this.props.handleQuestionChange(index)} className={this.props.classes}>
+		<TransitionLink cover to={this.props.redirect} entry={{ state: {quizTaken: true}}} duration={0.4} bg={this.props.charColor}><div onClick={() => this.props.handleQuestionChange(index)} className={this.props.classes}>
 			<div className="col-2 pr-0">
 				<div className="alphabet">
 					<h4 className="alphabet-text">{this.props.alphabet}</h4>
@@ -22,7 +22,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink";
 					<h4 className="answer-text white-text">{this.props.choiceText}</h4>
 				</div>
 			</div>
-		</div></AniLink>
+		</div></TransitionLink>
 
 		);
 	}
