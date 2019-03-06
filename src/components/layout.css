@@ -993,7 +993,7 @@ p.char-longer-desc {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 5rem;
+	width: 2rem;
 	height: 100%;
     background-image: -webkit-gradient(linear, right top, left top, from(rgba(255,255,255,0.001)), color-stop(95%, #fff), to(#fff));
     background-image: -webkit-linear-gradient(right, rgba(255,255,255,0.001) 0%, #fff 95%, #fff 100%);
@@ -1005,7 +1005,7 @@ p.char-longer-desc {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 5rem;
+	width: 2rem;
 	height: 100%;
     background-image: -webkit-gradient(linear, right top, left top, from(rgba(255,255,255,0.001)), color-stop(95%, #fff), to(#fff));
     background-image: -webkit-linear-gradient(right, rgba(255,255,255,0.001) 0%, #fff 95%, #fff 100%);
@@ -1088,3 +1088,73 @@ p.char-longer-desc {
 
 
 
+
+@media (min-width: 1350px) {
+	.img-test-page {
+		max-width: 500px;
+	}
+
+
+	.home.template .character-holder {
+		max-width: 400px;
+	}
+
+	.page-ss {
+		height: 220px;
+	}
+
+	.fix-sm-text {
+		font-size: 7rem;
+	}
+		.home .drop {
+		left: -800px;
+		bottom: -1000px;
+		width: 2500px;
+		height: 2500px;
+	}
+
+}
+
+		.home .drop {
+		left: -800px;
+		bottom: -1000px;
+		width: 2500px;
+		height: 2500px;
+	}
+
+
+@media (min-height: 800px) and (min-width: 768px) {
+	.quiz .home-box-left,
+	.quiz .home-box-right,
+	.home .home-box-left,
+	.home .home-box-right {
+		position: relative; 
+	}
+
+	.quiz .home-box-left-content,
+	.quiz .home-box-right-content,
+	.home .home-box-left-content,
+	.home .home-box-right-content {
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	    width: 100%;
+	}
+
+	.home .drop {
+		left: -800px;
+		bottom: -1000px;
+		width: 2500px;
+		height: 2500px;
+	}
+}
+
+
+
+/*@media (min-height: 800px) and (min-width: 1550px) {
+	.home .img--container .main-design-man {
+		max-width: 300px;
+	}
+}
+*/
