@@ -53,9 +53,9 @@ class Chloe extends React.Component {
 	    name: 'Chloe',
 	    image: Character10,
 	    buttonText: 'Take the Test',
-	    title: 'Careerist',
-	    subTitle: 'From the story of "My Life"',
-	    charLongerDesc: 'He got successful and rich. In his home “everything seemed as though it would say: “He lived and laboured, and has attained at last the happiness possible on earth."',
+	    title: 'Vamp',
+	    subTitle: 'Below are her inspirations',
+	    charLongerDesc: 'She is easy to fall in love with but she will unlikely love back. She’d rather get disappointed in her passion and leave “with her father to America for the fair”.',
 	    themeText: 'color-seventeen',
 	    themeBG: 'bg-seventeen',
 	    portfolio: [

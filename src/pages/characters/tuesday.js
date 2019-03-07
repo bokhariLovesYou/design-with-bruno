@@ -53,9 +53,9 @@ class Tuesday extends React.Component {
 	    name: 'Tuesday',
 	    image: Character8,
 	    buttonText: 'Take the Test',
-	    title: 'Careerist',
-	    subTitle: 'From the story of "My Life"',
-	    charLongerDesc: 'He got successful and rich. In his home “everything seemed as though it would say: “He lived and laboured, and has attained at last the happiness possible on earth."',
+	    title: 'Bride',
+	    subTitle: 'Below are her inspirations',
+	    charLongerDesc: 'Young and emotional. She is willing to make a decisive move in her life…And this life, though still vague and mysterious, beckoned to her, drawing her onward.',
 	    themeText: 'color-eight',
 	    themeBG: 'bg-eight',
 	    portfolio: [

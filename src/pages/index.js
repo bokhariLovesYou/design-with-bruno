@@ -210,9 +210,9 @@ class HomePageTemplate extends React.Component {
 					<MainLayOut 
 						mainHeading="Brunö"
 						subHeading="We expected you"
-						subTitle="Brunö is here to help you figure out "
-						subTitleBoldText="who you are."
-						paragraph="On September 25th, 2015 the first theatrical online reading of Anton Brunö took place. Taking the test gave users a character to audition as and take part in the casting."
+						subTitle="Brunö speaks to the designer "
+						subTitleBoldText="in you."
+						paragraph="On September 12, 2015 a theoretical study stated that ‘choice’ is derived from past experiences. Design with Bruno is here to test the theory a little creatively."
 						poweredText="A product of OneIMS"
 						leftColumnImageSource={Bruno}
 						rightColumnHeading="Which character are you?"

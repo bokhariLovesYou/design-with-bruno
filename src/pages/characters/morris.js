@@ -53,9 +53,9 @@ class Morris extends React.Component {
 	    name: 'Morris',
 	    image: Character5,
 	    buttonText: 'Take the Test',
-	    title: 'Careerist',
-	    subTitle: 'From the story of "My Life"',
-	    charLongerDesc: 'He got successful and rich. In his home “everything seemed as though it would say: “He lived and laboured, and has attained at last the happiness possible on earth."',
+	    title: 'Enlightened',
+	    subTitle: 'Below are his inspirations',
+	    charLongerDesc: 'He lives in the world of vulgarity and routine and only love was able to awaken him.',
 	    themeText: 'color-five',
 	    themeBG: 'bg-five',
 	    portfolio: [

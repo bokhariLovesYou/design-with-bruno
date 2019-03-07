@@ -54,7 +54,7 @@ class Robert extends React.Component {
 	    image: Character1,
 	    buttonText: 'Take the Test',
 	    title: 'Careerist',
-	    subTitle: 'From the story of "My Life"',
+	    subTitle: 'Below are his inspirations',
 	    charLongerDesc: 'He got successful and rich. In his home “everything seemed as though it would say: “He lived and laboured, and has attained at last the happiness possible on earth."',
 	    themeText: 'color-fourteen',
 	    themeBG: 'bg-fourteen',

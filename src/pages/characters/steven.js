@@ -53,9 +53,9 @@ class Steven extends React.Component {
 	    name: 'Steven',
 	    image: Character3,
 	    buttonText: 'Take the Test',
-	    title: 'Careerist',
-	    subTitle: 'From the story of "My Life"',
-	    charLongerDesc: 'He got successful and rich. In his home “everything seemed as though it would say: “He lived and laboured, and has attained at last the happiness possible on earth."',
+	    title: 'Hopeless Romantic',
+	    subTitle: 'Below are his inspirations',
+	    charLongerDesc: `Believes that creative labour can transform people. "I shall carry you off tomorrow, we'll work, we'll be rich, my dreams will come true. You'll be happy".`,
 	    themeText: 'color-one',
 	    themeBG: 'bg-one',
 	    portfolio: [

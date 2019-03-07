@@ -53,9 +53,9 @@ class Cynthia extends React.Component {
 	    name: 'Cynthia',
 	    image: Character9,
 	    buttonText: 'Take the Test',
-	    title: 'Careerist',
-	    subTitle: 'From the story of "My Life"',
-	    charLongerDesc: 'He got successful and rich. In his home “everything seemed as though it would say: “He lived and laboured, and has attained at last the happiness possible on earth."',
+	    title: 'Altruist',
+	    subTitle: 'Below are her inspirations',
+	    charLongerDesc: 'Easy forgets oneself when seeing others suffering. Only working for others «we shall see heaven shining like a jewel, we shall rest.',
 	    themeText: 'color-nineteen',
 	    themeBG: 'bg-nineteen',
 	    portfolio: [

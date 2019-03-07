@@ -53,9 +53,9 @@ class Julia extends React.Component {
 	    name: 'Julia',
 	    image: Character2,
 	    buttonText: 'Take the Test',
-	    title: 'Careerist',
-	    subTitle: 'From the story of "My Life"',
-	    charLongerDesc: 'He got successful and rich. In his home “everything seemed as though it would say: “He lived and laboured, and has attained at last the happiness possible on earth."',
+	    title: 'Perpetual Dreamer',
+	    subTitle: 'Below are her inspirations',
+	    charLongerDesc: 'She constantly changes occupations and searches for meaning of life. Today we would name it procrastination.',
 	    themeText: 'color-two',
 	    themeBG: 'bg-two',
 	    portfolio: [

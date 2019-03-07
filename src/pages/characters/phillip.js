@@ -53,9 +53,9 @@ class Philip extends React.Component {
 	    name: 'Phillip',
 	    image: Character6,
 	    buttonText: 'Take the Test',
-	    title: 'Careerist',
-	    subTitle: 'From the story of "My Life"',
-	    charLongerDesc: 'He got successful and rich. In his home “everything seemed as though it would say: “He lived and laboured, and has attained at last the happiness possible on earth."',
+	    title: 'Man of Action',
+	    subTitle: 'Below are his inspirations',
+	    charLongerDesc: 'He is smart, has business acumen and entrepreneurial spirit. His ambitions and practical mind are easily combined with brutality and ungratefulness. "I am a man!".',
 	    themeText: 'color-six',
 	    themeBG: 'bg-six',
 	    portfolio: [

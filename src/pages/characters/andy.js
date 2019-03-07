@@ -53,9 +53,9 @@ class Andy extends React.Component {
 	    name: 'Andy',
 	    image: Character6,
 	    buttonText: 'Take the Test',
-	    title: 'Careerist',
-	    subTitle: 'From the story of "My Life"',
-	    charLongerDesc: 'He got successful and rich. In his home “everything seemed as though it would say: “He lived and laboured, and has attained at last the happiness possible on earth."',
+	    title: 'Wanderer',
+	    subTitle: 'Below are his inspirations',
+	    charLongerDesc: 'Downshifter of the XIX century. Young, skinny, casually dressed. He replaced unconcerned papers’ rewriting in the office with hand-labour joy.',
 	    themeText: 'color-four',
 	    themeBG: 'bg-four',
 	    portfolio: [
