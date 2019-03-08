@@ -85,7 +85,7 @@ class LearnMore extends React.Component {
 						<h2 className="main-heading all-upper-case bolder-text home-first-text gold-text mb-3">okay, then what?</h2>
 						<p className="small gold-text">So from there, it assigns you a character based on your personality. Each character has different traits. And based on those traits - they share some of their web design inspirations. </p>
 						<p className="small gold-text">The test, thus, speaks to the hidden designer in you (that's too dramatic, lol, seriously it's just a fun quiz, so chill and enjoy).</p> 
-						<p className="small gold-text">Most of the people also do not know what they like when they come to web design (specifically those people who do not belong to the specific industry. Therefore, as an agency - it's important to make great design, however - it's also important to make 'successful' design. A successful design is that, which the client approves of. They approve something, when a design matches what they were 'expecting'.</p> 
+						<p className="small gold-text">Most of the people also do not know what they like when they come to web design (specifically those people who do not belong to the specific industry). Therefore, as an agency - it's important to make great design, however - it's also important to make 'successful' design. A successful design is that, which the client approves of. They approve something, when a design matches what they were 'expecting'.</p> 
 						<p className="small gold-text">Design with Bruno also provides them the ability to explore some of the modern designs on the web - which can help add more clarity to a project. </p>
 						</Fade>
 					</div>

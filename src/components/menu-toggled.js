@@ -33,10 +33,10 @@ class MenuToggled extends Component {
 						</ul>
 						<hr className="toggled-hr" />
 						<div className="social">
-							<i className="fab fa-google-plus-g"></i>
-							<i className="fab fa-twitter"></i>
-							<i className="fab fa-facebook-f"></i>
-							<i className="fab fa-instagram"></i>
+							<a href="https://plus.google.com/+Oneims" target="_blank"><i className="fab fa-google-plus-g"></i></a>
+							<a href="https://twitter.com/OneIMS" target="_blank"><i className="fab fa-twitter"></i></a>
+							<a href="https://www.facebook.com/OneIMS" target="_blank"><i className="fab fa-facebook-f"></i></a>
+							<a href="https://www.instagram.com/oneims/" target="_blank"><i className="fab fa-instagram"></i></a>
 						</div>
 					</div>
 				</div>
