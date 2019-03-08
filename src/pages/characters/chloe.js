@@ -60,24 +60,24 @@ class Chloe extends React.Component {
 	    themeBG: 'bg-seventeen',
 	    portfolio: [
 	    	{
-	    		websiteName: 'Verge Currency',
-	    		websiteURL: 'https://vergecurrency.com/',
-	    		websiteImage: 'https://i.imgur.com/yRlylCM.jpg'
+	    		websiteName: 'Mobius',
+	    		websiteURL: 'https://mobius.ml/',
+	    		websiteImage: 'https://i.imgur.com/HZxn9EM.png'
 	    	},
 	    	{
-	    		websiteName: 'Hulu',
-	    		websiteURL: 'https://www.hulu.com/welcome',
-	    		websiteImage: 'https://i.imgur.com/QIthAsZ.jpg'
+	    		websiteName: 'Emergence',
+	    		websiteURL: 'https://www.emcap.com/',
+	    		websiteImage: 'https://i.imgur.com/En5ZCxH.png'
 	    	},
 	    	{
-	    		websiteName: 'Underbelly',
-	    		websiteURL: 'https://underbelly.is/',
-	    		websiteImage: 'https://i.imgur.com/fpTK1IR.jpg'
+	    		websiteName: 'Clubhouse',
+	    		websiteURL: 'https://clubhouse.io/',
+	    		websiteImage: 'https://i.imgur.com/X2SJXu2.png'
 	    	},
 	    	{
-	    		websiteName: 'Design Better',
-	    		websiteURL: 'https://www.designbetter.co/',
-	    		websiteImage: 'https://i.imgur.com/5cXLVnu.png'
+	    		websiteName: 'Marvel App',
+	    		websiteURL: 'https://marvelapp.com/',
+	    		websiteImage: 'https://i.imgur.com/hon64Qx.png'
 	    	}	    	
 	    ]
 	  }

@@ -23,7 +23,12 @@ const Portfolio = props => {
 					<div>		
 						<div className="child">
 							<a href={props.websiteURL} target="_blank">
-							<img className="page-ss"alt="pageTitle" src={props.websiteImage} />
+							<div className="image-wrapper">
+								<img className="page-ss"alt="pageTitle" src={props.websiteImage} />
+								<div className="external-wrapper">
+									<i class={"fas fa-external-link-alt " + props.themeText}></i>
+								</div>
+							</div>
 							<h5 className={"question-title all-upper-case bolder-text black-text one-rem " + props.themeText}>{props.websiteName}</h5>
 							</a>
 						</div>

@@ -60,24 +60,24 @@ class Tuesday extends React.Component {
 	    themeBG: 'bg-eight',
 	    portfolio: [
 	    	{
-	    		websiteName: 'Verge Currency',
-	    		websiteURL: 'https://vergecurrency.com/',
-	    		websiteImage: 'https://i.imgur.com/yRlylCM.jpg'
+	    		websiteName: 'Slite',
+	    		websiteURL: 'https://slite.com/',
+	    		websiteImage: 'https://i.imgur.com/RC3H30n.png'
 	    	},
 	    	{
-	    		websiteName: 'Hulu',
-	    		websiteURL: 'https://www.hulu.com/welcome',
-	    		websiteImage: 'https://i.imgur.com/QIthAsZ.jpg'
+	    		websiteName: 'Sketch App',
+	    		websiteURL: 'https://www.sketchapp.com/',
+	    		websiteImage: 'https://i.imgur.com/SFhQTt7.png'
 	    	},
 	    	{
-	    		websiteName: 'Underbelly',
-	    		websiteURL: 'https://underbelly.is/',
-	    		websiteImage: 'https://i.imgur.com/fpTK1IR.jpg'
+	    		websiteName: 'Doopoll',
+	    		websiteURL: 'https://doopoll.co/',
+	    		websiteImage: 'https://i.imgur.com/V32x4cE.png'
 	    	},
 	    	{
-	    		websiteName: 'Design Better',
-	    		websiteURL: 'https://www.designbetter.co/',
-	    		websiteImage: 'https://i.imgur.com/5cXLVnu.png'
+	    		websiteName: 'Bench',
+	    		websiteURL: 'https://bench.co/',
+	    		websiteImage: 'https://i.imgur.com/c4VyxFU.jpg'
 	    	}	    	
 	    ]
 	  }

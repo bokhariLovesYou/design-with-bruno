@@ -60,24 +60,24 @@ class Andy extends React.Component {
 	    themeBG: 'bg-four',
 	    portfolio: [
 	    	{
-	    		websiteName: 'Verge Currency',
-	    		websiteURL: 'https://vergecurrency.com/',
-	    		websiteImage: 'https://i.imgur.com/yRlylCM.jpg'
+	    		websiteName: 'NYC Pride 2019',
+	    		websiteURL: 'https://2019-worldpride-stonewall50.nycpride.org/',
+	    		websiteImage: 'https://i.imgur.com/AatDwji.jpg'
 	    	},
 	    	{
-	    		websiteName: 'Hulu',
-	    		websiteURL: 'https://www.hulu.com/welcome',
-	    		websiteImage: 'https://i.imgur.com/QIthAsZ.jpg'
+	    		websiteName: 'Hopper',
+	    		websiteURL: 'https://www.hopper.com/',
+	    		websiteImage: 'https://i.imgur.com/T9VMdxN.png'
 	    	},
 	    	{
-	    		websiteName: 'Underbelly',
-	    		websiteURL: 'https://underbelly.is/',
-	    		websiteImage: 'https://i.imgur.com/fpTK1IR.jpg'
+	    		websiteName: 'Figma',
+	    		websiteURL: 'https://www.figma.com/',
+	    		websiteImage: 'https://i.imgur.com/L7WS6Z5.png'
 	    	},
 	    	{
-	    		websiteName: 'Design Better',
-	    		websiteURL: 'https://www.designbetter.co/',
-	    		websiteImage: 'https://i.imgur.com/5cXLVnu.png'
+	    		websiteName: 'Bejamas.io',
+	    		websiteURL: 'https://bejamas.io/',
+	    		websiteImage: 'https://i.imgur.com/tG7osqs.png'
 	    	}	    	
 	    ]
 	  }

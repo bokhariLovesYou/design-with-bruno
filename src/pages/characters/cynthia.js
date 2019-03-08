@@ -60,24 +60,24 @@ class Cynthia extends React.Component {
 	    themeBG: 'bg-nineteen',
 	    portfolio: [
 	    	{
-	    		websiteName: 'Verge Currency',
-	    		websiteURL: 'https://vergecurrency.com/',
-	    		websiteImage: 'https://i.imgur.com/yRlylCM.jpg'
+	    		websiteName: 'Dove Tail',
+	    		websiteURL: 'https://dovetailapp.com/',
+	    		websiteImage: 'https://i.imgur.com/x9Hi0H2.png'
 	    	},
 	    	{
-	    		websiteName: 'Hulu',
-	    		websiteURL: 'https://www.hulu.com/welcome',
-	    		websiteImage: 'https://i.imgur.com/QIthAsZ.jpg'
+	    		websiteName: 'Unow',
+	    		websiteURL: 'https://www.unow.fr/',
+	    		websiteImage: 'https://i.imgur.com/z9JBuhY.png'
 	    	},
 	    	{
-	    		websiteName: 'Underbelly',
-	    		websiteURL: 'https://underbelly.is/',
-	    		websiteImage: 'https://i.imgur.com/fpTK1IR.jpg'
+	    		websiteName: 'https://www.framer.com/',
+	    		websiteURL: 'Framer',
+	    		websiteImage: 'https://i.imgur.com/dm78T2H.png'
 	    	},
 	    	{
-	    		websiteName: 'Design Better',
-	    		websiteURL: 'https://www.designbetter.co/',
-	    		websiteImage: 'https://i.imgur.com/5cXLVnu.png'
+	    		websiteName: 'Coletiv',
+	    		websiteURL: 'https://coletiv.com/',
+	    		websiteImage: 'https://i.imgur.com/clkT3LH.png'
 	    	}	    	
 	    ]
 	  }

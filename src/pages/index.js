@@ -23,6 +23,7 @@ import Character9 from "../images/character-10.svg"
 import Character10 from "../images/character-11.svg"
 import Character11 from "../images/character-12.svg"
 import Character12 from "../images/character-13.svg"
+import Character13 from "../images/character-14.svg"
 
 
 
@@ -83,7 +84,7 @@ class HomePageTemplate extends React.Component {
 	 }
 
 	componentDidMount() {
-		const charArr = [Character1, Character2, Character3, Character5, Character6, Character7, Character8, Character9, Character10, Character11, Character12];
+		const charArr = [Character1, Character2, Character3, Character5, Character6, Character7, Character8, Character9, Character10, Character11, Character12, Character13];
 
 		// Setting the first Loop animation on component mount
 
@@ -212,7 +213,7 @@ class HomePageTemplate extends React.Component {
 						subHeading="We expected you"
 						subTitle="Brunö speaks to the designer "
 						subTitleBoldText="in you."
-						paragraph="On September 12, 2015 a theoretical study stated that ‘choice’ is derived from past experiences. Design with Bruno is here to test the theory a little creatively."
+						paragraph="On September 12, 2015 a theoretical study stated that ‘choice’ is derived from personality. Design with Bruno wants to test this theory in a design perspective."
 						poweredText="A product of OneIMS"
 						leftColumnImageSource={Bruno}
 						rightColumnHeading="Which character are you?"

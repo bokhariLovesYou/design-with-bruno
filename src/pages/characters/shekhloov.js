@@ -24,6 +24,7 @@ import Character9 from "../../images/character-10.svg"
 import Character10 from "../../images/character-11.svg"
 import Character11 from "../../images/character-12.svg"
 import Character12 from "../../images/character-13.svg"
+import Character13 from "../../images/character-14.svg"
 
 
 
@@ -51,33 +52,33 @@ class Shekhloov extends React.Component {
 	      }
 	    ],
 	    name: 'Shekhloöv',
-	    image: Character3,
+	    image: Character13,
 	    buttonText: 'Take the Test',
-	    title: 'Careerist',
+	    title: 'Hooligan',
 	    subTitle: 'From the story of "My Life"',
-	    charLongerDesc: 'He got successful and rich. In his home “everything seemed as though it would say: “He lived and laboured, and has attained at last the happiness possible on earth."',
+	    charLongerDesc: 'Crazy about duels, plays a part of a “very terrible man” in life. But at the same time he suffers from not being able to express himself.',
 	    themeText: 'color-purple',
 	    themeBG: 'bg-purple',
 	    portfolio: [
 	    	{
-	    		websiteName: 'Verge Currency',
-	    		websiteURL: 'https://vergecurrency.com/',
-	    		websiteImage: 'https://i.imgur.com/yRlylCM.jpg'
+	    		websiteName: 'Northern Wolf',
+	    		websiteURL: 'https://www.northernwolf.co/',
+	    		websiteImage: 'https://i.imgur.com/5hXL8DH.jpg'
 	    	},
 	    	{
-	    		websiteName: 'Hulu',
-	    		websiteURL: 'https://www.hulu.com/welcome',
-	    		websiteImage: 'https://i.imgur.com/QIthAsZ.jpg'
+	    		websiteName: 'Pixel Fish',
+	    		websiteURL: 'https://www.pixelfish.co.uk/',
+	    		websiteImage: 'https://i.imgur.com/WgGGYvM.png'
 	    	},
 	    	{
-	    		websiteName: 'Underbelly',
-	    		websiteURL: 'https://underbelly.is/',
-	    		websiteImage: 'https://i.imgur.com/fpTK1IR.jpg'
+	    		websiteName: 'Shopify',
+	    		websiteURL: 'https://www.shopify.com/',
+	    		websiteImage: 'https://i.imgur.com/MCwmzND.jpg'
 	    	},
 	    	{
-	    		websiteName: 'Design Better',
-	    		websiteURL: 'https://www.designbetter.co/',
-	    		websiteImage: 'https://i.imgur.com/5cXLVnu.png'
+	    		websiteName: 'Sprout Social',
+	    		websiteURL: 'https://sproutsocial.com/',
+	    		websiteImage: 'https://i.imgur.com/of0QtxX.jpg'
 	    	}	    	
 	    ]
 	  }

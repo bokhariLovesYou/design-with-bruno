@@ -53,31 +53,31 @@ class Mallorie extends React.Component {
 	    name: 'Mallorie',
 	    image: Character12,
 	    buttonText: 'Take the Test',
-	    title: 'Careerist',
+	    title: 'Vamp',
 	    subTitle: 'From the story of "My Life"',
-	    charLongerDesc: 'He got successful and rich. In his home “everything seemed as though it would say: “He lived and laboured, and has attained at last the happiness possible on earth."',
+	    charLongerDesc: 'Good looking, she likes dresses, parties and her admirers. “Even her faults seemed in her to carry with them peculiar, charming qualities”.',
 	    themeText: 'color-twelve',
 	    themeBG: 'bg-twelve',
 	    portfolio: [
 	    	{
-	    		websiteName: 'Verge Currency',
-	    		websiteURL: 'https://vergecurrency.com/',
-	    		websiteImage: 'https://i.imgur.com/yRlylCM.jpg'
+	    		websiteName: 'Equithon',
+	    		websiteURL: 'https://equithon.org/',
+	    		websiteImage: 'https://i.imgur.com/Jgba49J.png'
 	    	},
 	    	{
-	    		websiteName: 'Hulu',
-	    		websiteURL: 'https://www.hulu.com/welcome',
-	    		websiteImage: 'https://i.imgur.com/QIthAsZ.jpg'
+	    		websiteName: 'Frame.io',
+	    		websiteURL: 'https://workflow.frame.io/',
+	    		websiteImage: 'https://i.imgur.com/UJWJAdH.png'
 	    	},
 	    	{
-	    		websiteName: 'Underbelly',
-	    		websiteURL: 'https://underbelly.is/',
-	    		websiteImage: 'https://i.imgur.com/fpTK1IR.jpg'
+	    		websiteName: 'Impossible Foods',
+	    		websiteURL: 'https://impossiblefoods.com/',
+	    		websiteImage: 'https://i.imgur.com/vn9ZHy9.jpg'
 	    	},
 	    	{
-	    		websiteName: 'Design Better',
-	    		websiteURL: 'https://www.designbetter.co/',
-	    		websiteImage: 'https://i.imgur.com/5cXLVnu.png'
+	    		websiteName: 'Creddy',
+	    		websiteURL: 'https://en.creddy.ru',
+	    		websiteImage: 'https://i.imgur.com/yA0XJQW.png'
 	    	}	    	
 	    ]
 	  }

@@ -28,7 +28,7 @@ const CharacterUnique = props => {
 													<h2 className="question-title all-upper-case bolder-text black-text">{props.questionTitle}</h2>
 												</Fade>
 												<Fade bottom delay={600} duration={400} distance="1rem" force={true}>
-													<h4 className="question-title all-upper-case bolder-text black-text pt-2 char-sub-title">{props.subTitle}</h4>
+													<h4 className="question-title all-upper-case bolder-text black-text pt-2 char-sub-title">{props.name + "'s design inspirations"}</h4>
 												</Fade>
 												<Fade bottom delay={700} duration={400} distance="1rem" force={true}>
 													<p className="small home-fourth-text pt-3 pb-3 char-longer-desc">{props.charLongerDesc}</p>

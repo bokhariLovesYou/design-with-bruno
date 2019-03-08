@@ -24,6 +24,7 @@ import Character9 from "../images/character-10.svg"
 import Character10 from "../images/character-11.svg"
 import Character11 from "../images/character-12.svg"
 import Character12 from "../images/character-13.svg"
+import Character13 from "../images/character-14.svg"
 
 
 
@@ -131,7 +132,7 @@ class CharactersTemplate extends React.Component {
 	    	{
 	    		name: 'shekhloöv',
 	    		url: '/characters/shekhloov',
-	    		image: Character3,
+	    		image: Character13,
 	    		backgroundClass: 'bg-purple col-lg-6',
 	    		color: 'purple'
 	    	},	    			    	

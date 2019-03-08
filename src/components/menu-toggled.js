@@ -28,7 +28,7 @@ class MenuToggled extends Component {
 								<AniLink cover to="/" duration={durationOne} bg="#ff3c00"><li>Home</li></AniLink>
 								<AniLink cover to="/testquiz/" duration={durationTwo} hex="#4b96ae"><li>Take The Test</li></AniLink>
 								<AniLink cover to="/characters/" duration={durationTwo} hex="#000"><li>Explore Characters</li></AniLink>
-								<AniLink cover to="/" duration={durationOne} bg="#ff3c00"><li>Learn More</li></AniLink>
+								<AniLink cover to="/learn-more/" duration={durationTwo} bg="#ff3c00"><li>Learn More</li></AniLink>
 							</Fade>
 						</ul>
 						<hr className="toggled-hr" />

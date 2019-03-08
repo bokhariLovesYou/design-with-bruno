@@ -51,7 +51,7 @@ class Philip extends React.Component {
 	      }
 	    ],
 	    name: 'Phillip',
-	    image: Character6,
+	    image: Character7,
 	    buttonText: 'Take the Test',
 	    title: 'Man of Action',
 	    subTitle: 'Below are his inspirations',
@@ -60,24 +60,24 @@ class Philip extends React.Component {
 	    themeBG: 'bg-six',
 	    portfolio: [
 	    	{
-	    		websiteName: 'Verge Currency',
-	    		websiteURL: 'https://vergecurrency.com/',
-	    		websiteImage: 'https://i.imgur.com/yRlylCM.jpg'
+	    		websiteName: 'Snap Kit',
+	    		websiteURL: 'https://kit.snapchat.com/',
+	    		websiteImage: 'https://i.imgur.com/kyMHwEp.png'
 	    	},
 	    	{
-	    		websiteName: 'Hulu',
+	    		websiteName: 'Timely App',
 	    		websiteURL: 'https://www.hulu.com/welcome',
-	    		websiteImage: 'https://i.imgur.com/QIthAsZ.jpg'
+	    		websiteImage: 'https://i.imgur.com/i4WAZ7w.png'
 	    	},
 	    	{
-	    		websiteName: 'Underbelly',
-	    		websiteURL: 'https://underbelly.is/',
-	    		websiteImage: 'https://i.imgur.com/fpTK1IR.jpg'
+	    		websiteName: 'Algolia',
+	    		websiteURL: 'https://www.algolia.com/',
+	    		websiteImage: 'https://i.imgur.com/VUSungE.png'
 	    	},
 	    	{
-	    		websiteName: 'Design Better',
-	    		websiteURL: 'https://www.designbetter.co/',
-	    		websiteImage: 'https://i.imgur.com/5cXLVnu.png'
+	    		websiteName: 'Airbnb Cereal',
+	    		websiteURL: 'https://airbnb.design/cereal/',
+	    		websiteImage: 'https://i.imgur.com/k283pNa.png'
 	    	}	    	
 	    ]
 	  }

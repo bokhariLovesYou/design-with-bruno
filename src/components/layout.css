@@ -5591,4 +5591,122 @@ p.char-longer-desc {
 
 
 
+.image-wrapper {
+  position: relative;
+}
 
+.external-wrapper {
+    position: absolute;
+    top: 1.1rem;
+    right: -0.8rem;
+    z-index: 111;
+    background-color: #fff;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 100px;
+    box-shadow: 0 10px 27px 10px rgba(214, 231, 233, 0.52);
+    transition: 0.2s ease;
+    opacity: 1;
+}
+
+.external-wrapper > i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-size: 0.7rem;
+  margin-left: 0.1rem;
+}
+
+.page-ss:hover + .external-wrapper {
+  transform: translateY(-5px);
+  transition: 0.2s ease;
+  opacity: 1;
+}
+
+
+@media (min-width: 1350px) {
+    .external-wrapper {
+      width: 2.2rem;
+      height: 2.2rem;
+  }
+
+  .external-wrapper > i {
+    font-size: 0.85em;
+    margin-left: 0.15rem;
+  }
+}
+
+
+.bg-black {
+  background-color: #000;
+}
+
+
+.gold-text {
+  color: #C8C9B9;
+}
+
+.learn {
+  min-height: 100vh;
+}
+
+.learn .content {
+  padding: 6.3rem 1rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 14rem;
+}
+
+
+.learn .content h1 {
+  font-size: 1.8rem;
+  text-transform: lowercase;
+}
+
+.learn .content h2 {
+  margin: 2rem 0;
+  font-size: 1.3rem;
+  text-transform: lowercase;
+}
+
+
+.learn .content p {
+  line-height: 1.8;
+  font-size: 1rem;
+  font-family: '';
+  margin-bottom: 1.5rem;
+}
+
+
+.bottom-fade {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 350px;
+  background-image: linear-gradient(to bottom, transparent 0%, #000 95%, #000 100%);
+}
+
+@media (min-width: 768px) {
+
+
+.learn .content h1 {
+  font-size: 4rem;
+}
+
+.learn .content h2 {
+  font-size: 3.6rem;
+}
+
+.learn .content p {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  margin-bottom: 3.5rem;
+}
+
+
+}
