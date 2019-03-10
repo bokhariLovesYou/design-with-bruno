@@ -3,6 +3,12 @@ module.exports = {
     title: `Pandas Eating Lots`,
   },
   plugins: [
+        {
+        resolve: `gatsby-plugin-google-analytics`,
+        options: {
+          trackingId: "UA-135958695-1",
+        },
+      },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
