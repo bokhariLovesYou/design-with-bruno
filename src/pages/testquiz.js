@@ -8,6 +8,13 @@ import TestQuizLayout from "../components/test-quiz"
 import * as Scroll from 'react-scroll';
 import BrunoFavicon from "../images/bruno-favicon.png"
 import { Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import quizOne from "../images/1.png"
+import quizTwo from "../images/2.png"
+import quizThree from "../images/3.png"
+import quizFour from "../images/4.png"
+import quizFive from "../images/5.png"
+import quizSix from "../images/6.png"
+import quizSeven from "../images/7.png"
 
 class TestPageTemplate extends React.Component {
 
@@ -44,7 +51,7 @@ class TestPageTemplate extends React.Component {
 		    			selected: null
 		    		}	    		
 		    	],
-		    	imgSource: 'https://chekhov.withgoogle.com/alive/CDN_PATH/img/test/1.png',
+		    	imgSource: quizOne,
 		    	choiceTitle: 'Select Answer Below',
 		    	answerSelected: null
 		    },
@@ -72,7 +79,7 @@ class TestPageTemplate extends React.Component {
 		    			selected: null
 		    		}	    		
 		    	],
-		    	imgSource: 'https://chekhov.withgoogle.com/alive/CDN_PATH/img/test/2.png',
+		    	imgSource: quizTwo,
 		    	choiceTitle: 'Select Answer Below',
 		    	answerSelected: null
 		    },
@@ -100,7 +107,7 @@ class TestPageTemplate extends React.Component {
 		    			selected: null
 		    		}	    		
 		    	],
-		    	imgSource: 'https://chekhov.withgoogle.com/alive/CDN_PATH/img/test/3.png',
+		    	imgSource: quizThree,
 		    	choiceTitle: 'Select Answer Below',
 		    	answerSelected: null
 		    },
@@ -128,7 +135,7 @@ class TestPageTemplate extends React.Component {
 		    			selected: null
 		    		}	    		
 		    	],
-		    	imgSource: 'https://chekhov.withgoogle.com/alive/CDN_PATH/img/test/4.png',
+		    	imgSource: quizFour,
 		    	choiceTitle: 'Select Answer Below',
 		    	answerSelected: null
 		    },
@@ -156,7 +163,7 @@ class TestPageTemplate extends React.Component {
 		    			selected: null
 		    		}	    		
 		    	],
-		    	imgSource: 'https://chekhov.withgoogle.com/alive/CDN_PATH/img/test/5.png',
+		    	imgSource: quizFive,
 		    	choiceTitle: 'Select Answer Below',
 		    	answerSelected: null
 		    },
@@ -184,7 +191,7 @@ class TestPageTemplate extends React.Component {
 		    			selected: null
 		    		}	    		
 		    	],
-		    	imgSource: 'https://chekhov.withgoogle.com/alive/CDN_PATH/img/test/6.png',
+		    	imgSource: quizSix,
 		    	choiceTitle: 'Select Answer Below',
 		    	answerSelected: null
 		    },
@@ -212,7 +219,7 @@ class TestPageTemplate extends React.Component {
 		    			selected: null
 		    		}	    		
 		    	],
-		    	imgSource: 'https://chekhov.withgoogle.com/alive/CDN_PATH/img/test/7.png',
+		    	imgSource: quizSeven,
 		    	choiceTitle: 'Select Answer Below',
 		    	answerSelected: null
 		    },
